@@ -521,7 +521,7 @@ p.site-slogan {
   margin-bottom: 30px;
 }
 .margin-bottom-40 {
-  margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 .margin-bottom-50 {
   margin-bottom: 50px;
@@ -589,7 +589,7 @@ p.site-slogan {
 }
 /* Background Colors */
 .background-white {
-  background-color: #FFFFFF;
+	background-color: #FFFFFF;
 }
 .background-gray-darker {
   background-color: #072006;
@@ -601,7 +601,7 @@ p.site-slogan {
   background-color: #a2c55d;
 }
 .background-gray-light {
-  background-color: #b3b3b3;
+	background-color: #87b485;
 }
 .background-gray-lighter {
   background-color: #87b485;
@@ -792,13 +792,12 @@ p.site-slogan {
 }
 #hornav ul ul li a,
 #hornav ul ul li span {
-  background-color: transparent;
-  box-shadow: none;
-  display: block;
-  padding: 6px 15px;
-  color: #555555 !important;
-  text-transform: none;
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
+	box-shadow: none;
+	display: block;
+	padding: 6px 15px;
+	color: #555555 !important;
+	text-transform: none;
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 #hornav ul ul:before {
   background: transparent url('../img/menu_arrow.png') no-repeat 0 0;
@@ -816,8 +815,8 @@ p.site-slogan {
 #hornav ul ul li a:active,
 #hornav ul ul li a:focus,
 #hornav ul ul li a:hover {
-  text-decoration: none;
-  background-color: rgba(0, 0, 0, 0.05);
+	text-decoration: none;
+	background-color: rgba(7,32,6,1.00);
 }
 #hornav ul ul li:hover a {
   text-decoration: none;
@@ -964,13 +963,14 @@ p.site-slogan {
 /* Mobile Menu */
 /*-----------------------------------------------------------------------------------*/
 .slicknav_btn {
-  position: relative;
-  display: block;
-  vertical-align: middle;
-  float: right;
-  padding: 0.5em 0.7em;
-  line-height: 1.125em;
-  cursor: pointer;
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	float: right;
+	padding: 0.5em 0.7em;
+	line-height: 1.125em;
+	cursor: pointer;
+	background-color: #072006;
 }
 .slicknav_menu .slicknav_menutxt {
   display: block;
@@ -982,7 +982,8 @@ p.site-slogan {
   margin: 0.188em 0 0 0.438em;
 }
 .slicknav_menu .slicknav_no-text {
-  margin: 0;
+	margin: 0;
+	background-color: #124610;
 }
 .slicknav_menu .slicknav_icon-bar {
   font-size: 18px;
@@ -1000,11 +1001,13 @@ p.site-slogan {
   margin-top: 0.188em;
 }
 .slicknav_nav {
-  clear: both;
+	clear: both;
+	background-color: #387A33;
 }
 .slicknav_nav ul,
 .slicknav_nav li {
-  display: block;
+	display: block;
+	background-color: #387A33;
 }
 .slicknav_nav .slicknav_arrow {
   font-size: 0.8em;
@@ -1026,27 +1029,30 @@ p.site-slogan {
   display: table;
 }
 .slicknav_menu:after {
-  clear: both;
+	clear: both;
+	background-color: #387A33;
 }
 /* IE6/7 support */
 .slicknav_menu {
   *zoom: 1;
+	background-color: #387A33;
 }
 /* 
     User Default Style
     Change the following styles to modify the appearance of the menu.
 */
 .slicknav_menu {
-  font-size: 18px;
+	font-size: 18px;
+	background-color: #387A33;
 }
 /* Button */
 .slicknav_btn {
-  margin: 5px 5px 6px;
-  text-decoration: none;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  background-color: rgba(0, 0, 0, 0.4);
+	margin: 5px 5px 6px;
+	text-decoration: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #072006;
 }
 /* Button Text */
 .slicknav_menu .slicknav_menutxt {
@@ -1058,8 +1064,8 @@ p.site-slogan {
   background-color: #f5f5f5;
 }
 .slicknav_menu {
-  background: #27595d;
-  padding: 5px;
+	background-color: #387A33;
+	padding: 5px;
 }
 .slicknav_nav {
   color: #fff;
@@ -1535,18 +1541,21 @@ a.slicknav_item [class*=" fa-"] {
   width: 100% !important;
 }
 .portfolio-group .portfolio-item {
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  vertical-align: text-top;
-  list-style: none outside none;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	vertical-align: text-top;
+	list-style: none outside none;
 }
 .portfolio-group figure {
-  border: 4px solid #d7dfe0;
-  margin: 1px;
-  padding: 0px;
-  position: relative;
-  overflow: hidden;
+	border: 3px solid #387A33;
+	margin: 1px;
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+	max-height: 180px;
+	width: 100%;
+	height: 100%;
 }
 .portfolio-group figure img {
   max-width: 100%;
@@ -1580,7 +1589,7 @@ a.slicknav_item [class*=" fa-"] {
 .portfolio-group .col-sm-4,
 .portfolio-group .col-md-4,
 .portfolio-group .col-lg-4 {
-  width: 33.33%;
+	width: 33.33%;
 }
 ul.portfolio li a,
 ul.grid li:first-child a {
@@ -1596,10 +1605,11 @@ ul.grid li:first-child a {
   display: inline-block;
 }
 .portfolio-filter-label {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 10px;
-  padding: 11px 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 10px;
+	padding: 11px 12px;
+	background-color: #072006;
 }
 .portfolio figcaption span {
   color: #cccccc;
@@ -1609,26 +1619,26 @@ ul.grid li:first-child a {
 }
 .no-touch .portfolio-item figure:hover img,
 .portfolio-item figure.cs-hover img {
-  bottom: 0px;
-  -webkit-transform: scale(1.2) translateY(-7.5%);
-  -moz-transform: scale(1.2) translateY(-7.5%);
-  -ms-transform: scale(1.2) translateY(-7.5%);
-  transform: scale(1.2) translateY(-7.5%);
+	bottom: 0px;
+	-webkit-transform: scale(1.2) translateY(-7.5%);
+	-moz-transform: scale(1.2) translateY(-7.5%);
+	-ms-transform: scale(1.2) translateY(-7.5%);
+	transform: scale(1.2) translateY(-7.5%);
 }
 .portfolio-item figcaption {
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  -webkit-transition: opacity 0.5s 0.2s;
-  -moz-transition: opacity 0.5s 0.2s;
-  transition: opacity 0.5s 0.2s;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s 0.2s;
+	-moz-transition: opacity 0.5s 0.2s;
+	transition: opacity 0.5s 0.2s;
+	width: 100%;
+	height: 100%;
 }
 .no-touch .portfolio-item figure:hover figcaption,
 .portfolio-item figure.cs-hover figcaption {
-  opacity: 0.7;
-  -webkit-transition: opacity 0.5s;
-  -moz-transition: opacity 0.5s;
-  transition: opacity 0.5s;
+	opacity: 0.7;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	transition: opacity 0.5s;
 }
 /*-----------------------------------------------------------------------------------*/
 /* Testimonials */

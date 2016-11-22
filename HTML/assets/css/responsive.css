@@ -12,7 +12,10 @@
 	margin-left: 0;
 }
 
-.primary-container-background .primary-container {width: 100%;}
+.primary-container-background .primary-container {
+	width: 100%;
+	background-color: #87B485;
+}
 
 /* Disable CSS animations */
 .animated {
@@ -53,5 +56,3 @@
 
 	
 }
-
-

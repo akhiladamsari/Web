@@ -84,7 +84,7 @@ svg:not(:root) {
   overflow: hidden;
 }
 figure {
-  margin: 1em 40px;
+	margin: 1em 40px;
 }
 hr {
   -moz-box-sizing: content-box;
@@ -228,7 +228,8 @@ th {
     background: #fff !important;
   }
   .navbar {
-    display: none;
+	display: none;
+	background-color: #072006;
   }
   .table td,
   .table th {
@@ -786,7 +787,7 @@ pre code {
   width: 58.333333333333336%;
 }
 .col-xs-6 {
-  width: 50%;
+
 }
 .col-xs-5 {
   width: 41.66666666666667%;
@@ -949,7 +950,8 @@ pre code {
     width: 41.66666666666667%;
   }
   .col-sm-4 {
-    width: 33.33333333333333%;
+
+
   }
   .col-sm-3 {
     width: 25%;
@@ -1985,23 +1987,22 @@ select[multiple].input-lg {
   right: 20px;
 }
 .btn {
-  display: inline-block;
-  margin-bottom: 0;
-  font-weight: normal;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  background-image: none;
-  border: 1px solid transparent;
-  white-space: nowrap;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.428571429;
-  border-radius: 5px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.428571429;
+	border-radius: 5px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 .btn:focus,
 .btn:active:focus,
@@ -2010,6 +2011,13 @@ select[multiple].input-lg {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
+.portfolio-filter li .btn.btn-default {
+	border: thin hidden #072006;
+	background-color: #387A33;
+	color: #FFFFFF;
+
+}
+
 .btn:hover,
 .btn:focus {
   color: #333333;
@@ -2033,9 +2041,9 @@ fieldset[disabled] .btn {
   box-shadow: none;
 }
 .btn-default {
-  color: #333333;
-  background-color: #ffffff;
-  border-color: #cccccc;
+	color: #333333;
+	background-color: #8DC486;
+	border-color: #072006;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -3106,9 +3114,10 @@ input[type="button"].btn-block {
 }
 .dropup .dropdown-menu,
 .navbar-fixed-bottom .dropdown .dropdown-menu {
-  top: auto;
-  bottom: 100%;
-  margin-bottom: 1px;
+	top: auto;
+	bottom: 100%;
+	margin-bottom: 1px;
+	background-color: #072006;
 }
 @media (min-width: 768px) {
   .navbar-right .dropdown-menu {
@@ -5109,15 +5118,15 @@ button.close {
   margin: 10px;
 }
 .modal-content {
-  position: relative;
-  background-color: #ffffff;
-  border: 1px solid #999999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  background-clip: padding-box;
-  outline: none;
+	position: relative;
+	background-color: #000000;
+	border: 1px solid #999999;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+	background-clip: padding-box;
+	outline: none;
 }
 .modal-backdrop {
   position: fixed;

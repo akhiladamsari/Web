@@ -25,6 +25,19 @@
         <link rel="stylesheet" href="assets/css/custom.css" rel="stylesheet">
         <!-- Google Fonts-->
         <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" rel="stylesheet" type="text/css">
+        <style type="text/css">
+        .player {
+}
+        .audioplayer {
+	width: 200px;
+	height: 100px;
+	background-color: #A2A2A2;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+        </style>
     </head>
     <body>
         <div id="body-bg">
@@ -44,23 +57,21 @@
             </div>
             <!-- End Header -->
             <!-- Top Menu -->
-            <div id="hornav" class="bottom-border-shadow">
+                        <div id="hornav" class="bottom-border-shadow">
                 <div class="container no-padding border-bottom">
-                    <div class="row">
-                        <!-- <div class="col-md-8 no-padding"> -->
+                    <div class="row">                         
                             <div class="visible-lg">
                                 <ul id="hornavmenu" class="nav navbar-nav">
                                     <li>
                                         <a href="index.html" class="fa-home ">Home</a>
                                     </li>
                                     <li>
-                                        <a href="Bird Glossary.html" class="fa-gears ">Bird Glossary</a>
-                                        
+                                        <a href="Bird Glossary.html" class="fa-briefcase">Bird Glossary</a>
                                     <li>
-                                        <a href="map.html" class="fa-home ">Map</a>
+                                        <a href="map.html" class="fa-map-marker">Map</a>
                                     </li>
                                     <li>
-                                        <span class="fa-font ">Log Note Library</span>
+                                        <span class="fa-database">Log Note Library</span>
                                         <ul>
                                             <li>
                                                 <a href="My-Log-Notes.html">My Log Notes</a>
@@ -69,28 +80,33 @@
                                                 <a href="Shared-Log-Notes.html">Shared Log Notes</a>
                                             </li>
                                         </ul>
+                                    </li><li>
+                                        <a href="Gallery.html" class="fa-th-large active">Gallery</a>
+                                       
                                     </li>
                                     <li>
-                                        <a href="Gallery.html" class="fa-th active">Gallery</a>
+                                        <a href="contact.html" class="fa-fax">Contact Us</a>
+                                    </li>                                  
+                                   <li> 
+                                   <div class="btn">
+                 <button type="button" class="btn btn-success "><a href="pages-login.html">Log In</a></button>
+                                    </div>
+                                   <div class="btn">
+                 <button type="button" class="btn btn-success "><a href="pages-sign-up.html">Sign Up</a></button>
+                                    </div>
+                 					
                                     </li>
-                                    <li>
-                                        <a href="contact.html" class="fa-comment ">Contact Us</a>
-                                    </li>
-                                     <div class="login btn padding-horiz-20">
-                               		<button type="button" class="btn btn-success"><a href="pages-login.html">Log In</a>
-                                    </button>
-                                    <button type="button" class="btn btn-success"><a href="pages-sign-up.html">Sign Up</a>
-                                    </button> 
                                 </ul>
                             </div>
-                        <!-- </div> -->
-                    </div>
+                            
+                  </div>                    
                 </div>
             </div>
+
             <!-- End Top Menu -->
             <!-- === END HEADER === -->
             <!-- === BEGIN CONTENT === -->
-            <div id="content">
+            <div id="content" class="bottom-border-shadow">
                 <div class="container background-white">
                     <div class="row margin-vert-30">
                         <div class="col-md-12">
@@ -99,7 +115,7 @@
                             <div class="portfolio-filter-container margin-top-20">
                                 <ul class="portfolio-filter">
                                     <li class="portfolio-filter-label label label-primary">
-                                        filter by:
+                                        filter by :
                                     </li>
                                     <li>
                                         <a href="#" class="portfolio-selected btn btn-default" data-filter="*">All</a>
@@ -122,7 +138,7 @@
                     <div class="row">
                         <div class="col-md-12 portfolio-group no-padding">
                             <!-- Portfolio Item -->
-                            <div class="col-md-4 portfolio-item margin-bottom-40 video">
+                            <div class="portfolio-item margin-bottom-40 video col-md-4">
                                 <div>
                                     <a href="#">
                                         <figure>
@@ -149,18 +165,20 @@
                                         </figure>
                                     </a>
                                 </div>
-                            </div>
+                          </div>
                             <!-- End Portfolio Item -->
                             <!-- Portfolio Item -->
-                            <div class="col-md-4 portfolio-item margin-bottom-40 audio">
+                            <div class="portfolio-item margin-bottom-40 audio col-md-4">
                                 <div>
                                     <a href="#">
                                         <figure>
                                             <img src="assets/img/portfolio/image3.jpg" alt="image3">
                                             <figcaption>
                                                 <h3 class="margin-top-20">Placerat facer possim</h3>
-                                                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</span>
-                                            </figcaption>
+                                                <audio controls class="audioplayer">
+ 											 	<source src="assets/audios/demosong01.mp3" type="audio/mpeg">
+                                                </audio>                                              
+                                          </figcaption>
                                         </figure>
                                     </a>
                                 </div>
@@ -179,7 +197,7 @@
                                         </figure>
                                     </a>
                                 </div>
-                            </div>
+                          </div>
                             <!-- End Portfolio Item -->
                             <!-- Portfolio Item -->
                             <div class="col-md-4 portfolio-item margin-bottom-40 design">
@@ -256,7 +274,7 @@
                                 </div>
                             </div>
                             <!-- End Portfolio Item -->
-                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
